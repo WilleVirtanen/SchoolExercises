@@ -6,9 +6,8 @@ public class ChallengeThree {
 
         System.out.println("input first number:");
         String userFirstInput = userScanner.nextLine();
-        float x=1;
-
-        x = Float.parseFloat(userFirstInput);
+        
+        float x = Float.parseFloat(userFirstInput);
 
         if(x==0)
         {

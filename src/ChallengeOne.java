@@ -1,6 +1,6 @@
 public class ChallengeOne {
 public static void main(String[] args) {
-            int x=0;
+            int x=5;
 
         if(x==0)
         {

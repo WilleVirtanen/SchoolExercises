@@ -11,11 +11,9 @@ public class ChallengeTwo {
         System.out.println("Input third number:");
         String userThirdInput = userScanner.nextLine();
 
-        float x=1,y=1,e=1;
-
-        x = Float.parseFloat(userFirstInput);
-        y = Float.parseFloat(userSecondInput);
-        e = Float.parseFloat(userThirdInput);
+        float x = Float.parseFloat(userFirstInput);
+        float y = Float.parseFloat(userSecondInput);
+        float e = Float.parseFloat(userThirdInput);
 
         if(x>y && x>e)
         {
