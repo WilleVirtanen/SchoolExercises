@@ -6,9 +6,7 @@ public class ChallengeSeven {
 
         System.out.println("Skriv en siffra mellan 1-9 så bygger vi en pyramid:");
         String userFirstInput = userScanner.nextLine();
-        
-        boolean repeat = true;
-        
+                
         String space = " ";
 
         int x = Integer.parseInt(userFirstInput);
